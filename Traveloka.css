@@ -1,0 +1,681 @@
+/* Font Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap');
+
+header{
+    padding-top: 10px;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.section-1 {
+  background-image: url('bromooo.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.section-2 {
+  background-image: url('bg2.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 60px 20px;
+}
+
+.section-2 .container {
+  background-color: rgba(255, 255, 255, 0.88);
+  padding: 30px;
+  border-radius: 12px;
+  max-width: 960px;
+  margin: auto;
+}
+   
+.logoo{
+    padding-left: 30px;
+}
+
+.logo{
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;    
+    color: white;
+    align-items: left;
+    margin-top: 0;
+    margin-left: 55px;
+}
+
+.scroll-trigger {
+    height: 1px;
+  }
+
+body:has(.scroll-trigger:in-viewport) .navbar {
+    background: rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+  }  
+.navbar{
+    position: sticky;
+    top: 0;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    transition: background-color 0.3s ease;
+    z-index: 100;
+  }
+
+.menu-right {
+    position: fixed;
+    top: 0%;  
+    right: 20px;  
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+    z-index: 11;
+    padding-right: 60px;
+}   
+
+.currency {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: white;
+}
+
+.flag-icon {
+    width: 20px;
+    height: auto;
+}
+
+.promo {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    gap: 3px;
+    color: white;
+}
+
+.promo-link {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: white;
+    text-decoration: none;
+    font-size: 18px; /* Ukuran teks */
+    padding: 10px 16px; /* Biar area bisa diklik lebih luas */
+}
+
+.Bantuan{
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    align-items: center;
+    color: white;
+    margin-top: 0;
+    margin-left: 10px;
+}
+
+.logo-persen {
+    width: 20px;
+    height: auto;
+}
+
+.currency, .Bantuan{
+    position: relative;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.dropdown {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: white;
+    border: 1px solid #ccc;
+    width: 150px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.dropdown-item {
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+.dropdown-arrow {
+    margin-left: 5px;
+    font-size: 12px;
+    color: white;
+    cursor: pointer;
+}
+.pemisah {
+    width: 100%;
+    height: 1px;
+    background-color: #444555;
+    margin-top: 55px;
+}
+
+.menu-right a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+    align-items: center;
+}
+
+.login{
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-right: -40px;
+}
+
+.daftar {
+    font-weight: bold;
+    background: #007bff;
+    border: 3px solid #007bff;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    color:white;
+    margin-left: 0;
+    margin-right: 0px;
+}
+
+.menuatas {
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    color: white;
+    gap: 50px; 
+    align-items: center; 
+    margin-left: 100px; 
+    padding-left: 10px;
+    margin-top: -40px; 
+}
+
+/*.pemisah2 {
+    width: 100%;
+    height: 0.5px;
+    background-color: #444555;
+    margin-top: 15px;
+}*/
+
+.menuatas a {
+    color: white; 
+    text-decoration: none; 
+    font-size: 15px; 
+}
+
+.menu {
+    display: flex;
+    gap: 50px;
+    margin-bottom: 20px;
+    color: white;
+    font-weight: 800;
+    width: 40;
+    margin-top: 50px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.menu-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    position: relative;
+}
+
+.menu-item span {
+    font-size: 17px;
+}
+
+.menu-pesawat {
+    background-color: white;
+    border: white solid 15px;
+    color: black;
+    border-radius: 30px;
+    padding: 10px 1px;
+    display: flex;
+    align-items: center;
+    height: 40px;
+    width: 150px;
+    gap: 9px;
+  }
+
+  .menu-pesawat img {
+    margin-top: -7px;
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+    }
+  
+.menu-pesawat span {
+   color: black;
+   font-weight: 800;
+   margin: 0; 
+}
+      
+.menu-icon {
+    width: 35px;
+    height: auto;
+    margin-bottom: 5px;
+    filter: brightness(0) invert(1);
+}
+
+.menu-tulisan {
+    margin-left: 10px;
+}
+
+.pembatas{
+    width: 87%;
+    margin: auto;
+    height: 1px;
+    background-color: white;
+    margin-top: -18px;
+}
+
+.pilihan-trip {
+    display: flex;
+    gap: 10px;
+    margin-top: -40px;
+    justify-content: start;
+    margin-right: 950px;
+  }
+    
+  .trip-btn {
+    display: flex;
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    background-color: transparent;
+    color: white;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    cursor: pointer;
+    padding-top: 10px;
+  }
+  
+  .trip-btn.aktif {
+    background-color: #007bff; /* Biru */
+    color: white;
+    border: 2px solid #007bff;
+  }
+
+  .info-buttons {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
+  .info-btn {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.4); /* Border dengan efek blur */
+    color: white;
+    padding: 8px 16px;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    font-weight: 600;
+    align-self: flex-start; /* Agar sejajar dengan Multi-Kota */
+    filter: brightness(0) invert(1);
+}
+
+.info-btn:first-child {
+    align-self: flex-start;
+    margin-top: -100px;
+    margin-left: 580px;
+    outline: 3px solid rgba(255, 255, 255, 0.6);
+} 
+.info-btn:last-child { 
+  align-self: flex-start; /* Posisi ini akan membuat mereka sedikit lebih tinggi */
+  margin-top: -100px; /* Mengatur sedikit jarak agar lebih sejajar */
+  outline: 3px solid rgba(255, 255, 255, 0.6);  
+}
+  .info-left {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    flex-grow: 100;
+  }
+  
+  .info-icon {
+    width: 16px;
+    height: 16px;
+  }
+  
+  .dropdown-arroww {
+    font-size: 12px;
+    margin-left: 100px;
+}
+  
+.flight-form {
+    display: flex;
+    align-items: flex-end;
+    gap: 12px;
+    margin-top: -80px;
+  }
+  
+  .flight-form .input-group label {
+    display: inline-block;
+    min-width: 300px; 
+    color: white;
+  }
+  
+  .input-group {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Poppins' sans-serif;
+  }
+  
+  .input-group label {
+    font-size: 15px;
+    font-weight: 100;
+    margin-bottom: 6px;
+    color: white;
+    min-width: 230px;
+  }
+  
+  .input-box {
+    display: flex;
+    align-items: center;
+    background: white;
+    border-radius: 12px; 
+    padding: 14px 18px;  
+    gap: 20px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    min-width: 220px; 
+  }
+
+  .input-box span {
+    color: black;
+    font-weight: 150;
+  }
+
+  .input-boxx span {
+    color: black;
+    font-weight: 150;
+  }
+
+  .input-boxx {
+    display: flex;
+    align-items: center;
+    background: white;
+    border-radius: 12px; 
+    padding: 14px 18px;  
+    gap: 10px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    min-width: 220px; 
+  }
+  
+  .input-boxx img {
+    width: 40px; 
+    height: 30px;
+  }
+  .input-box img {
+    width: 28px; 
+    height: 28px;
+  }
+  
+  .search-btn button {
+    background-color: #ff5722;
+    border: none;
+    border-radius: 30%;
+    padding: 15px;
+    cursor: pointer;
+  }
+  
+  .search-btn img {
+    width: 20px;
+    height: 20px;
+  }
+  
+  .menu-buttons {
+    display: flex;
+    gap: 12px;
+    margin-top: -20px;
+    margin-right: 750px;
+  }
+
+  .menu-buttons span {
+    font-weight: 400;
+    margin-top: 10px;
+  }
+  
+  .menu-buttons img {
+    width: 20px;
+  }
+
+  .menu-btn {
+    background-color: rgba(255 , 255, 255, 0.3);
+    border: 2px solid rgba(255, 255, 255, 0.4);
+    padding: 8px 16px;
+    border-radius: 8px;
+    font-weight: bold;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    cursor: pointer;
+  }
+  
+  .trusted-airlines {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-top: -30px;
+    margin-bottom: 10px;
+    padding: 1px 10px;
+    background-color: white;
+    border-radius: 12px;
+    width: fit-content;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  }
+  
+  .trusted-airlines span {
+    font-style: italic;
+    color: #666;
+    font-size: 14px;
+  }
+  
+  .trusted-airlines img {
+    height: 50px;
+    object-fit: contain;
+  }
+  
+  /* Promo Kupon Section */
+
+.promo-title{
+  margin-left: -130px;
+  margin-top: -90px;
+  color: #193650;
+  }
+
+.promo-subtitle{
+  margin-left: -130px;
+  margin-top: -10px;
+}
+
+.promo-cards {
+  display: flex;
+  gap: 18px;
+  justify-content: left;
+  margin-left: -130px;
+  min-width: fit-content;
+}
+
+.promo-card {
+  background: #fff;
+  border-radius: 14px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.09);
+  width: 390px;
+  min-height: 155px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: box-shadow 0.17s;
+  padding: 0 0 18px 0;
+  position: relative;
+  white-space: nowrap; /* Mencegah teks membungkus ke baris baru */
+  overflow: hidden; /* Menyembunyikan teks yang melebihi lebar elemen */
+  text-overflow: ellipsis;
+}
+
+.promo-card-header {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 18px 24px 6px 24px;
+}
+
+.promo-card-header img {
+  margin-top: 3px;
+}
+
+.promo-card-header strong {
+  font-size: 14px;
+  font-weight: 600;
+  display: block;
+}
+
+.promo-info {
+  color: #7e7e7e;
+  font-size: 12px;
+  margin-top: 3px;
+}
+
+.promo-i {  
+  margin-left: auto;
+  color: #777;
+  font-size: 18px;
+  padding-top: 2px;
+}
+
+.promo-divider {
+  border-top: 1.5px dashed #8cb0df;
+  margin: 0 24px 12px 24px;
+  margin-top: -60px;
+}
+
+.promo-footer {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 0 24px 0 24px;
+}
+
+.promo-kode {
+  flex: 1;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  background-color: #f2f2f2;
+  padding: 2px 10px;
+  font-weight: 600;
+  color: #555e66;
+  font-size: 15px;
+  gap: 7px;
+  margin-top: -100px;
+}
+
+.copy-icon {
+  width: 19px; height: 19px; opacity: 0.75;
+}
+
+.copy-btn {
+  background: #e7f3ff;
+  border: none;
+  color: #2176c6;
+  font-weight: 500;
+  padding: 9px 21px;
+  border-radius: 7px;
+  cursor: pointer;
+  font-size: 15px;
+  transition: background 0.17s;
+  margin-top: -100px;
+}
+
+.copy-btn:hover { background: #c8e6ff; }
+
+.fitur-section {
+  padding: 50px 24px 60px 24px;
+  margin-top: -120px;
+  margin-left: -130px;
+}
+
+.container-fitur {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.fitur-title {
+  font-size: 24px;
+  font-weight: 700;
+  color: #373d47;
+  margin-bottom: 32px;
+}
+
+.fitur-cards {
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+  justify-content: start;
+}
+
+.fitur-card {
+  background: #fff;
+  border-radius: 14px;
+  box-shadow: 0 4px 18px rgba(0,0,0,0.08);
+  overflow: hidden;
+  width: 245px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.18s;
+  cursor: pointer;
+  
+}
+
+.fitur-card:hover {
+  transform: translateY(-4px) scale(1.025);
+  box-shadow: 0 6px 24px rgba(0,95,166,.09);
+}
+
+.fitur-card img {
+  width: 100%;
+  height: 190px;
+  object-fit: cover;
+  object-position: center;
+  
+}
+
+.fitur-caption {
+  padding: 12px 18px;
+  color: #233;
+  font-weight: 600;
+  font-size: 15px;
+}
+
